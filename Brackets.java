@@ -43,7 +43,7 @@ public class Brackets {
     }
 
     public static void main(String[] args) throws IOException {
-
+        System.out.println("Введите адрес файла");
         BufferedReader bufferedReader=new BufferedReader(new InputStreamReader(new FileInputStream(new File(new Scanner(System.in).next()))));
         String f;
         int count=0;
